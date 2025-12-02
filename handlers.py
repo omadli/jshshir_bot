@@ -52,7 +52,7 @@ async def region_selecting_callback_handler(query: types.CallbackQuery, callback
         )
     else:
         await query.bot.send_message( # type: ignore
-            chat_id=query.chat_instance,
+            chat_id=query.from_user.id,
             text="Tumanni tanlang. Qaysi tuman bo'yicha qidiramiz...",
             reply_markup=districts_keyb(region_code=callback_data.code)
         )
@@ -108,7 +108,7 @@ async def final_callback_handler(query: types.CallbackQuery, callback_data: Call
         reply_markup=None
     )
     await query.bot.send_chat_action( # type: ignore
-        chat_id=query.chat_instance,
+        chat_id=query.from_user.id,
         action="typing",
     )
     data = await state.get_data()
