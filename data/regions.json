@@ -1,0 +1,86 @@
+{
+    "03": {
+        "NAME": "АНДИЖОН ВИЛОЯТИ",
+        "NAME_RU": "Андижанская область",
+        "NAME_UZ_CYRL": "Андижон вилояти",
+        "NAME_UZ_LATN": "Andijon viloyati"
+    },
+    "06": {
+        "NAME": "БУХОРО ВИЛОЯТИ",
+        "NAME_RU": "Бухарская область",
+        "NAME_UZ_CYRL": "Бухоро вилояти",
+        "NAME_UZ_LATN": "Buxoro viloyati"
+    },
+    "08": {
+        "NAME": "ЖИЗЗАХ ВИЛОЯТИ",
+        "NAME_RU": "Джизакская область",
+        "NAME_UZ_CYRL": "Жиззах вилояти",
+        "NAME_UZ_LATN": "Jizzax viloyati"
+    },
+    "10": {
+        "NAME": "ҚАШҚАДАРЁ ВИЛОЯТИ",
+        "NAME_RU": "Кашкадарьинская область",
+        "NAME_UZ_CYRL": "Қашқадарё вилояти",
+        "NAME_UZ_LATN": "Qashqadaryo viloyati"
+    },
+    "12": {
+        "NAME": "НАВОИЙ ВИЛОЯТИ",
+        "NAME_RU": "Навоийская область",
+        "NAME_UZ_CYRL": "Навоий вилояти",
+        "NAME_UZ_LATN": "Navoiy viloyati"
+    },
+    "14": {
+        "NAME": "НАМАНГАН ВИЛОЯТИ",
+        "NAME_RU": "Наманганская область",
+        "NAME_UZ_CYRL": "Наманган вилояти",
+        "NAME_UZ_LATN": "Namangan viloyati"
+    },
+    "18": {
+        "NAME": "САМАРҚАНД ВИЛОЯТИ",
+        "NAME_RU": "Самаркандская область",
+        "NAME_UZ_CYRL": "Самарқанд вилояти",
+        "NAME_UZ_LATN": "Samarqand viloyati"
+    },
+    "22": {
+        "NAME": "СУРХОНДАРЁ ВИЛОЯТИ",
+        "NAME_RU": "Сурхандарьинская область",
+        "NAME_UZ_CYRL": "Сурхондарё вилояти",
+        "NAME_UZ_LATN": "Surxondaryo viloyati"
+    },
+    "24": {
+        "NAME": "СИРДАРЁ ВИЛОЯТИ",
+        "NAME_RU": "Сырдарьинская область",
+        "NAME_UZ_CYRL": "Сирдарё вилояти",
+        "NAME_UZ_LATN": "Sirdaryo viloyati"
+    },
+    "26": {
+        "NAME": "ТОШКЕНТ ШАҲАР",
+        "NAME_RU": "город Ташкент",
+        "NAME_UZ_CYRL": "Тошкент шаҳар",
+        "NAME_UZ_LATN": "Toshkent shahar"
+    },
+    "27": {
+        "NAME": "ТОШКЕНТ ВИЛОЯТИ",
+        "NAME_RU": "Ташкентская область",
+        "NAME_UZ_CYRL": "Тошкент вилояти",
+        "NAME_UZ_LATN": "Toshkent viloyati"
+    },
+    "30": {
+        "NAME": "ФАРҒОНА ВИЛОЯТИ",
+        "NAME_RU": "Ферганская область",
+        "NAME_UZ_CYRL": "Фарғона вилояти",
+        "NAME_UZ_LATN": "Farg‘ona viloyati"
+    },
+    "33": {
+        "NAME": "ХОРАЗМ ВИЛОЯТИ",
+        "NAME_RU": "Хорезмская область",
+        "NAME_UZ_CYRL": "Хоразм вилояти",
+        "NAME_UZ_LATN": "Xorazm viloyati"
+    },
+    "35": {
+        "NAME": "ҚОРАҚАЛПОҒИСТОН РЕСПУБЛИКАСИ",
+        "NAME_RU": "Республика Каракалпакстан",
+        "NAME_UZ_CYRL": "Қорақалпоғистон Республикаси",
+        "NAME_UZ_LATN": "Qoraqalpog‘iston Respublikasi"
+    }
+}
