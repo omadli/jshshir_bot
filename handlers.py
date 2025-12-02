@@ -52,7 +52,7 @@ async def region_selecting_callback_handler(query: types.CallbackQuery, callback
         )
     else:
         await query.bot.send_message( # type: ignore
-            chat_id=query.from_user.id,
+            chat_id=query.chat_instance,
             text="Tumanni tanlang. Qaysi tuman bo'yicha qidiramiz...",
             reply_markup=districts_keyb(region_code=callback_data.code)
         )
@@ -103,6 +103,14 @@ async def form_date_handler(message: types.Message, state: FSMContext) -> None:
 @dp.callback_query(StateFilter(Form.filter) and CallbackFilt.filter(F.boys | F.girls))
 async def final_callback_handler(query: types.CallbackQuery, callback_data: CallbackFilt, state: FSMContext) -> None:
     await query.answer(text="Ok.")
+    m = await query.message.edit_text( # type: ignore
+        text="Qidirilmoqda...",
+        reply_markup=None
+    )
+    await query.bot.send_chat_action( # type: ignore
+        chat_id=query.chat_instance,
+        action="typing",
+    )
     data = await state.get_data()
     await state.clear()
     responses = []
@@ -116,9 +124,9 @@ async def final_callback_handler(query: types.CallbackQuery, callback_data: Call
         text = ""
         for i, resp in enumerate(responses, start=1):
             text += f"{i}) {resp['name']} <code>{resp['personalNum']}</code>\n<i>{resp['address']}</i>\n\n"
-        await query.message.edit_text(text) # type: ignore
+        await m.edit_text(text) # type: ignore
     else:
-        await query.message.edit_text( # type: ignore
+        await m.edit_text( # type: ignore
             text="Hech nima topilmadi."
         )
         
